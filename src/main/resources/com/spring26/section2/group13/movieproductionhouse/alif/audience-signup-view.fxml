@@ -6,6 +6,8 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.AudienceSignupViewController">
@@ -16,5 +18,10 @@
       <ComboBox fx:id="preferredGenreCB" layoutX="74.0" layoutY="112.0" prefWidth="150.0" promptText="Genre" />
       <Button layoutX="274.0" layoutY="225.0" mnemonicParsing="false" onAction="#registerAccount" text="Register" />
       <DatePicker fx:id="dobDP" layoutX="361.0" layoutY="112.0" />
+      <Text layoutX="167.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Audience SignUp/Register">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
