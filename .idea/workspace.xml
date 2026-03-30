@@ -4,7 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf2e930-ff9a-4909-907a-cfbf884dc050" name="Changes" comment="Initial commit" />
+    <list default="true" id="fbf2e930-ff9a-4909-907a-cfbf884dc050" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/DummyDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/LoggedInSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/LoginViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Audience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceComplaintViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceDashViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceHistoryViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudiencePlayerViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudiencePremiumViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceReviewViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceSignupViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceWalletViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Complaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceApproveViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceComplaintsViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceDashViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceFlagViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceGuidelinesViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceOfficer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceRatingViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceReportsViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceSuspendViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/helpers/BinaryFileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/helpers/SceneSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-complaint-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-dash-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-history-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-player-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-premium-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-review-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-signup-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-wallet-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-approve-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-complaints-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-dash-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-flag-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-guidelines-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-rating-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-reports-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-suspend-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="FxmlFile" />
       </list>
     </option>
@@ -85,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774771422194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1774771794508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774771794508</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
