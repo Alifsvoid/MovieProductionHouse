@@ -5,4 +5,8 @@ module com.spring26.section2.group13.movieproductionhouse {
 
     opens com.spring26.section2.group13.movieproductionhouse to javafx.fxml;
     exports com.spring26.section2.group13.movieproductionhouse;
+
+
+    opens com.spring26.section2.group13.movieproductionhouse.akkhorik to javafx.fxml;
+    exports com.spring26.section2.group13.movieproductionhouse.akkhorik;
 }
