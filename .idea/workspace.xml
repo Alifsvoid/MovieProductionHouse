@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf2e930-ff9a-4909-907a-cfbf884dc050" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-history-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-history-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-player-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-player-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-review-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-review-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-signup-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-signup-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-wallet-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-wallet-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-dash-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-dash-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/DummyDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/DummyDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Complaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Complaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/helpers/BinaryFileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/helpers/BinaryFileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/helpers/SceneSwitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/helpers/SceneSwitcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.DummyDataGenerator.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
