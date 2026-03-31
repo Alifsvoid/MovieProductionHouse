@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceDashViewController">
    <children>
-      <TextField fx:id="searchKeywordTF" layoutX="124.0" layoutY="51.0" promptText="Keyword" />
-      <ComboBox fx:id="genreCB" layoutX="23.0" layoutY="108.0" prefWidth="150.0" promptText="Genre" />
-      <ComboBox fx:id="languageCB" layoutX="188.0" layoutY="108.0" prefWidth="150.0" promptText="Language" />
-      <ComboBox fx:id="ratingCB" layoutX="355.0" layoutY="108.0" prefWidth="150.0" promptText="Rating" />
-      <Button layoutX="517.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleSearch" text="Search" />
-      <TableView fx:id="moviesTV" layoutX="207.0" layoutY="165.0" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="pendingTasksTV" layoutX="200.0" layoutY="142.0" prefHeight="200.0" prefWidth="200.0">
         <columns>
           <TableColumn prefWidth="75.0" text="C1" />
           <TableColumn prefWidth="75.0" text="C2" />
         </columns>
       </TableView>
-      <Text layoutX="231.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search &amp; Filter">
+      <Button layoutX="246.0" layoutY="58.0" mnemonicParsing="false" onAction="#viewTaskDetails" text="View Task Details" />
+      <Text layoutX="142.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compliance Officer Dashboard">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
