@@ -5,6 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf2e930-ff9a-4909-907a-cfbf884dc050" name="Changes" comment="Initial commit: update fxml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorAttendRehearsalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorCareerDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorMakeupCostumeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorPerformanceFeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorPromotionsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorShootPerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorShootScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorViewScriptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceApprovePurchasesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceBudgetOverrunsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceCreateBudgetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceDailyCashflowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceGenerateReportsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceManageInvestorsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceProcessPaymentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceTrackExpensesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorAttendRehearsal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorCareerDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorMakeupCostume.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorPerformanceFeedback.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorPromotions.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorShootPerformance.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorShootSchedule.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/ActorViewScript.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceApprovePurchases.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceBudgetOverruns.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceCreateBudget.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceDailyCashflow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceGenerateReports.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceManageInvestors.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceProcessPayments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/Fuad/FinanceTrackExpenses.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775722032154</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial commit: update fxml">
+      <option name="closed" value="true" />
+      <created>1775774276900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775774276900</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

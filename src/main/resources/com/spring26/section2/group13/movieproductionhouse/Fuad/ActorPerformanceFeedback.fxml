@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="578.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.Fuad.ActorPerformanceFeedbackController">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="2.0" prefHeight="572.0" prefWidth="660.0">
+         <children>
+            <Label layoutX="117.0" layoutY="41.0" prefHeight="54.0" prefWidth="426.0" text="Director's Performance Feedback">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="425.0" layoutY="126.0" prefHeight="29.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="overallRatingLabel" text="Overall Rating:" />
+                  <Label text="4.5 / 5.0" />
+               </children>
+            </HBox>
+            <TableView layoutX="93.0" layoutY="166.0" prefHeight="200.0" prefWidth="426.0">
+              <columns>
+                <TableColumn fx:id="sceneCol" prefWidth="150.39997100830078" text="Scene" />
+                <TableColumn fx:id="dateCol" minWidth="0.0" prefWidth="124.0" text="Date" />
+                  <TableColumn fx:id="commentCol" minWidth="0.0" prefWidth="170.39999389648438" text="Comments" />
+              </columns>
+            </TableView>
+            <TextArea fx:id="directorNotesArea" layoutX="106.0" layoutY="400.0" prefHeight="96.0" prefWidth="374.0" text="Director's General Notes" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
