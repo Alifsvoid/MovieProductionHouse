@@ -9,24 +9,20 @@
 
 <AnchorPane prefHeight="556.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.Fuad.ActorShootScheduleController">
    <children>
-      <AnchorPane layoutX="23.0" layoutY="22.0" prefHeight="513.0" prefWidth="558.0">
-         <children>
-            <TableView fx:id="shootScheduleTable" layoutX="37.0" layoutY="111.0" prefHeight="251.0" prefWidth="505.0">
-              <columns>
-                <TableColumn fx:id="dateColumn" prefWidth="82.4000244140625" text="Date" />
-                <TableColumn fx:id="callTimeColumn" prefWidth="93.5999755859375" text="Call Time" />
-                  <TableColumn fx:id="shootTimeColumn" prefWidth="124.0" text="Shoot Time" />
-                  <TableColumn fx:id="locationColumn" prefWidth="87.20001220703125" text="Location" />
-                  <TableColumn fx:id="sceneInfoColumn" prefWidth="98.4000244140625" text="Scene Info" />
-              </columns>
-            </TableView>
-            <Button layoutX="50.0" layoutY="396.0" mnemonicParsing="false" onAction="#handlerexportbutton" text="Export Schedule" />
-            <Label layoutX="120.0" layoutY="38.0" prefHeight="52.0" prefWidth="303.0" text="  Daily Shooting Schedule">
-               <font>
-                  <Font name="System Bold" size="24.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
+      <TableView fx:id="shootScheduleTable" layoutX="60.0" layoutY="133.0" prefHeight="251.0" prefWidth="505.0">
+        <columns>
+          <TableColumn fx:id="dateColumn" prefWidth="82.4000244140625" text="Date" />
+          <TableColumn fx:id="callTimeColumn" prefWidth="93.5999755859375" text="Call Time" />
+            <TableColumn fx:id="shootTimeColumn" prefWidth="124.0" text="Shoot Time" />
+            <TableColumn fx:id="locationColumn" prefWidth="87.20001220703125" text="Location" />
+            <TableColumn fx:id="sceneInfoColumn" prefWidth="98.4000244140625" text="Scene Info" />
+        </columns>
+      </TableView>
+      <Button layoutX="73.0" layoutY="418.0" mnemonicParsing="false" onAction="#handlerexportbutton" text="Export Schedule" />
+      <Label layoutX="143.0" layoutY="60.0" prefHeight="52.0" prefWidth="303.0" text="  Daily Shooting Schedule">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
