@@ -8,12 +8,11 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="578.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.Fuad.ActorPerformanceFeedbackController">
    <children>
       <AnchorPane layoutX="4.0" layoutY="2.0" prefHeight="572.0" prefWidth="660.0">
          <children>
-            <Label layoutX="117.0" layoutY="41.0" prefHeight="54.0" prefWidth="426.0" text="Director's Performance Feedback">
+            <Label layoutX="117.0" layoutY="41.0" prefHeight="54.0" prefWidth="426.0" text="Actor Performance Feedback">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>

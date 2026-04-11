@@ -13,11 +13,11 @@
         <HBox prefHeight="60.0" prefWidth="600.0" spacing="20.0" BorderPane.alignment="CENTER">
             <children>
                 <Label />
-                <Label fx:id="ActorPortal" prefHeight="66.0" prefWidth="548.0" text="                                                Actor portal                ">
-               <font>
-                  <Font size="18.0" />
-               </font></Label>
-                <Button lineSpacing="50.0" mnemonicParsing="false" onAction="#logout" text="logout" />
+                <Label fx:id="ActorPortal" prefHeight="60.0" prefWidth="522.0" text="                                            Actor Dashboard    ">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font></Label>
+                <Button lineSpacing="50.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
             </children>
         </HBox>
     </top>

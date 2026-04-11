@@ -1,5 +1,9 @@
 package com.spring26.section2.group13.movieproductionhouse.Fuad;
 
+import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.ProgressBar;
+
 public class ActorCareerDashboardController
 {
     @javafx.fxml.FXML

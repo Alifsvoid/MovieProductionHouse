@@ -1,5 +1,10 @@
 package com.spring26.section2.group13.movieproductionhouse.Fuad;
 
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TextArea;
+
+import java.awt.event.ActionEvent;
+
 public class ActorPromotionsController
 {
     @javafx.fxml.FXML

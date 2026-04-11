@@ -1,5 +1,10 @@
 package com.spring26.section2.group13.movieproductionhouse.Fuad;
 
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+
+import java.awt.event.ActionEvent;
+
 public class ActorMakeupCostumeController
 {
     @javafx.fxml.FXML

@@ -1,5 +1,12 @@
 package com.spring26.section2.group13.movieproductionhouse.Fuad;
 
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
+
+import java.awt.event.ActionEvent;
+
 public class FinanceProcessPaymentsController
 {
     @javafx.fxml.FXML

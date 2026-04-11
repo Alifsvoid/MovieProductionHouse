@@ -1,5 +1,11 @@
 package com.spring26.section2.group13.movieproductionhouse.Fuad;
 
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+
+import java.awt.event.ActionEvent;
+
 public class FinanceApprovePurchasesController
 {
     @javafx.fxml.FXML
