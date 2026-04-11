@@ -9,10 +9,11 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceApproveViewController">
    <children>
-      <TableView fx:id="pendingApprovalTV" layoutX="212.0" layoutY="91.0" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="pendingApprovalTV" layoutX="87.0" layoutY="109.0" prefHeight="200.0" prefWidth="436.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn fx:id="apprTitleCol" prefWidth="159.20001220703125" text="Movie Title" />
+          <TableColumn fx:id="apprRatingCol" prefWidth="151.20001220703125" text="Assigned Rating" />
+            <TableColumn fx:id="apprFlagsCol" prefWidth="125.60009765625" text="Compliance Flags" />
         </columns>
       </TableView>
       <Button layoutX="274.0" layoutY="334.0" mnemonicParsing="false" onAction="#approveForRelease" text="Approve" />

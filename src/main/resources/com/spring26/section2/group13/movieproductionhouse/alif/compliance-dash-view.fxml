@@ -9,17 +9,19 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceDashViewController">
    <children>
-      <TableView fx:id="pendingTasksTV" layoutX="200.0" layoutY="142.0" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="taskTableView" layoutX="69.0" layoutY="140.0" prefHeight="200.0" prefWidth="462.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn fx:id="movieTitleCol" prefWidth="136.0" text="Movie Title" />
+          <TableColumn fx:id="taskTypeCol" prefWidth="97.60003662109375" text="Task Type" />
+            <TableColumn fx:id="statusCol" prefWidth="112.800048828125" text="Status" />
+            <TableColumn fx:id="taskIdCol" prefWidth="112.800048828125" text="Task ID" />
         </columns>
       </TableView>
-      <Button layoutX="246.0" layoutY="58.0" mnemonicParsing="false" onAction="#viewTaskDetails" text="View Task Details" />
       <Text layoutX="142.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compliance Officer Dashboard">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
       </Text>
+      <Button layoutX="450.0" layoutY="353.0" mnemonicParsing="false" onAction="#handleRateMoviesButton" text="Rate Movies" />
    </children>
 </AnchorPane>

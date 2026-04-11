@@ -34,6 +34,28 @@ public class DummyDataGenerator {
         movieList.add(new Movie("Deadpool", "Action", "English", 108, "R", "Pending", "Flagged for Violence"));
         movieList.add(new Movie("Inside Out 2", "Family", "English", 96, "G", "Approved", "None"));
 
+        // Bengali Movies
+        movieList.add(new Movie("Toofan", "Action", "Bengali", 145, "PG-13", "Approved", "None"));
+        movieList.add(new Movie("Hawa", "Drama", "Bengali", 131, "PG-13", "Approved", "None"));
+        movieList.add(new Movie("Pather Panchali", "Drama", "Bengali", 125, "G", "Approved", "None"));
+
+        // Hindi Movies
+        movieList.add(new Movie("3 Idiots", "Comedy", "Hindi", 170, "PG-13", "Approved", "None"));
+        movieList.add(new Movie("Sholay", "Action", "Hindi", 204, "PG-13", "Approved", "None"));
+        movieList.add(new Movie("PK", "Comedy", "Hindi", 152, "PG-13", "Approved", "None"));
+
+        // Spanish Movies
+        movieList.add(new Movie("The Platform", "Sci-Fi", "Spanish", 94, "R", "Approved", "None"));
+        movieList.add(new Movie("Coco", "Family", "Spanish", 105, "PG", "Approved", "None"));
+
+        // More English Movies
+        movieList.add(new Movie("The Conjuring", "Horror", "English", 112, "R", "Approved", "None"));
+        movieList.add(new Movie("A Quiet Place", "Horror", "English", 90, "PG-13", "Approved", "None"));
+        movieList.add(new Movie("Spider-Man: Across the Spider-Verse", "Action", "English", 140, "PG", "Approved", "None"));
+        movieList.add(new Movie("Superbad", "Comedy", "English", 113, "R", "Approved", "None"));
+        movieList.add(new Movie("Interstellar", "Sci-Fi", "English", 169, "PG-13", "Approved", "None"));
+        movieList.add(new Movie("Paddington 2", "Family", "English", 104, "PG", "Approved", "None"));
+
         File movieFile = new File("data/movies.bin");
         BinaryFileHelper.writeAllObjects(movieFile, movieList);
     }

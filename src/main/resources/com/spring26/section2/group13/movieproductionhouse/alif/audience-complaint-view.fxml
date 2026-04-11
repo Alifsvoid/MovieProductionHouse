@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceComplaintsViewController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.AudienceComplaintViewController">
     <children>
         <ComboBox fx:id="categoryCB" layoutX="55.0" layoutY="79.0" prefWidth="150.0" promptText="Complaint category" />
         <TextArea fx:id="descriptionTA" layoutX="341.0" layoutY="79.0" prefHeight="200.0" prefWidth="200.0" promptText="Issue description" />

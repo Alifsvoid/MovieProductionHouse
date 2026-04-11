@@ -3,25 +3,26 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.AudienceSignupViewController">
    <children>
       <TextField fx:id="nameTF" layoutX="75.0" layoutY="61.0" promptText="Name" />
       <TextField fx:id="emailTF" layoutX="374.0" layoutY="61.0" promptText="Email" />
       <PasswordField fx:id="passwordPF" layoutX="225.0" layoutY="174.0" promptText="Password" />
-      <ComboBox fx:id="preferredGenreCB" layoutX="74.0" layoutY="112.0" prefWidth="150.0" promptText="Genre" />
-      <Button layoutX="274.0" layoutY="225.0" mnemonicParsing="false" onAction="#registerAccount" text="Register" />
-      <DatePicker fx:id="dobDP" layoutX="361.0" layoutY="112.0" />
+      <ComboBox fx:id="genreComboBox" layoutX="74.0" layoutY="112.0" prefWidth="150.0" promptText="Genre" />
+      <Button layoutX="274.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleRegisterButton" text="Register" />
+      <DatePicker fx:id="dobDatePicker" layoutX="361.0" layoutY="112.0" />
       <Text layoutX="167.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Audience SignUp/Register">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
       </Text>
+      <Label fx:id="statusLabel" layoutX="289.0" layoutY="305.0" />
    </children>
 </AnchorPane>

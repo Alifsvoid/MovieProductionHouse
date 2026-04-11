@@ -9,18 +9,20 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceDashViewController">
+<AnchorPane prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.AudienceDashViewController">
     <children>
-        <TextField fx:id="searchKeywordTF" layoutX="124.0" layoutY="51.0" promptText="Keyword" />
-        <ComboBox fx:id="genreCB" layoutX="23.0" layoutY="108.0" prefWidth="150.0" promptText="Genre" />
-        <ComboBox fx:id="languageCB" layoutX="188.0" layoutY="108.0" prefWidth="150.0" promptText="Language" />
-        <ComboBox fx:id="ratingCB" layoutX="355.0" layoutY="108.0" prefWidth="150.0" promptText="Rating" />
+        <TextField fx:id="keywordTextField" layoutX="124.0" layoutY="51.0" promptText="Keyword" />
+        <ComboBox fx:id="genreComboBox" layoutX="23.0" layoutY="108.0" prefWidth="150.0" promptText="Genre" />
+        <ComboBox fx:id="languageComboBox" layoutX="188.0" layoutY="108.0" prefWidth="150.0" promptText="Language" />
+        <ComboBox fx:id="ratingComboBox" layoutX="355.0" layoutY="108.0" prefWidth="150.0" promptText="Rating" />
         <Button layoutX="517.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleSearch" text="Search" />
-        <TableView fx:id="moviesTV" layoutX="207.0" layoutY="165.0" prefHeight="200.0" prefWidth="200.0">
+        <TableView fx:id="movieTableView" layoutX="26.0" layoutY="168.0" prefHeight="224.0" prefWidth="562.0">
             <columns>
-                <TableColumn prefWidth="75.0" text="C1" />
-                <TableColumn prefWidth="75.0" text="C2" />
+                <TableColumn fx:id="titleCol" prefWidth="112.79998779296875" text="Title" />
+                <TableColumn fx:id="genreCol" prefWidth="89.60003662109375" text="Genre" />
+            <TableColumn fx:id="languageCol" prefWidth="112.79998779296875" text="Language" />
+            <TableColumn fx:id="durationCol" prefWidth="123.199951171875" text="Duration" />
+            <TableColumn fx:id="ratingCol" prefWidth="125.5999755859375" text="Rating" />
             </columns>
         </TableView>
         <Text layoutX="231.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search &amp; Filter">
@@ -28,5 +30,6 @@
                 <Font name="System Bold" size="22.0" />
             </font>
         </Text>
+      <Button layoutX="493.0" layoutY="438.0" mnemonicParsing="false" onAction="#handleGoToComplaintButton" text="File a complaint" />
     </children>
 </AnchorPane>
