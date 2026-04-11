@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.akkhorik.controller.MainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Warner Bros. Studio Simulator" style="-fx-font-size: 24px;" />
+    <Label text="Select Portal" />
+    <Button text="Exhibitor Portal" onAction="#openExhibitorPortal" prefWidth="200" />
+    <Button text="Studio Executive Portal" onAction="#openExecutivePortal" prefWidth="200" />
+    <Button text="Exit" onAction="#exitApplication" prefWidth="200" />
+</VBox>
