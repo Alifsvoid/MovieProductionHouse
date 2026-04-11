@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.Fuad.FinanceOverrunController">
+    <children>
+        <Label layoutX="244.0" layoutY="14.0" prefHeight="68.0" prefWidth="298.0" text="Budget Overrun Alerts">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TableView fx:id="ActionoverrunTable" layoutX="50.0" layoutY="134.0" prefHeight="200.0" prefWidth="670.0">
+            <columns>
+                <TableColumn fx:id="deptCol" prefWidth="172.0" text="Department" />
+                <TableColumn fx:id="allocatedCol" prefWidth="148.0" text="Allocated ($)" />
+                <TableColumn fx:id="actualCol" prefWidth="148.0" text="Actual Spent ($)" />
+                <TableColumn fx:id="varianceCol" prefWidth="199.0" text="Variance ($)" />
+            </columns>
+        </TableView>
+        <Label layoutX="603.0" layoutY="361.0" text="Total Overage: $0.00" />
+        <Button layoutX="603.0" layoutY="391.0" mnemonicParsing="false" onAction="#handleApply" prefHeight="30.0" prefWidth="80.0" text="Apply" />
+    </children>
+</AnchorPane>
