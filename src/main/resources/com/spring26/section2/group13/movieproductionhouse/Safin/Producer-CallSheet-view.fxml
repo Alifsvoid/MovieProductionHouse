@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.Safin.ProducerCallSheetController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <VBox prefHeight="374.0" prefWidth="169.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#prodHomeOA" prefHeight="25.0" prefWidth="180.0" text="Home" />
+            <Button mnemonicParsing="false" onAction="#dailyCallSheetOA" prefHeight="25.0" prefWidth="180.0" text="Daily Call Sheet" />
+            <Button mnemonicParsing="false" onAction="#logIncidentOA" prefHeight="25.0" prefWidth="180.0" text="Log Incident" />
+            <Button mnemonicParsing="false" onAction="#emergencyReqOA" prefHeight="25.0" prefWidth="180.0" text="Emergency Resource Request" />
+            <Button mnemonicParsing="false" onAction="#setLocationOA" prefHeight="25.0" prefWidth="180.0" text="Set Location Update" />
+            <Button mnemonicParsing="false" onAction="#inventoryStatusOA" prefHeight="25.0" prefWidth="180.0" text="Inventory Status" />
+            <Button mnemonicParsing="false" onAction="#componentCompletionOA" prefHeight="25.0" prefWidth="180.0" text="Component Completion" />
+            <Button mnemonicParsing="false" onAction="#secureMessagingOA" prefHeight="25.0" prefWidth="180.0" text="Secure Messaging" />
+            <Button mnemonicParsing="false" onAction="#directiveOA" prefHeight="25.0" prefWidth="180.0" text="Directive" />
+            <Button mnemonicParsing="false" onAction="#signoutOA" prefHeight="25.0" prefWidth="180.0" text="Sign Out" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="36.0" layoutY="15.0" prefHeight="27.0" prefWidth="144.0" text="Daily Call Sheet">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="locationIDCB" layoutX="90.0" layoutY="55.0" prefWidth="150.0" />
+            <Label layoutX="22.0" layoutY="59.0" text="Location ID" />
+            <Button layoutX="188.0" layoutY="94.0" mnemonicParsing="false" onAction="#locationFilterOA" text="Filter" />
+            <TableView fx:id="callSheetTV" layoutX="22.0" layoutY="136.0" prefHeight="200.0" prefWidth="321.0">
+              <columns>
+                <TableColumn fx:id="locationIDTC" prefWidth="75.0" text="Location ID" />
+                <TableColumn fx:id="crewCallTimeTC" prefWidth="122.0" text="Crew Call Time" />
+                  <TableColumn fx:id="specialConstrainTC" prefWidth="122.0" text="Special Constrain" />
+              </columns>
+            </TableView>
+            <Button layoutX="188.0" layoutY="348.0" mnemonicParsing="false" onAction="#confirmSchduleOA" text="Confirm Schedule Receipt" />
+            <Label fx:id="notificationLabel" layoutX="368.0" layoutY="143.0" text="Notification" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

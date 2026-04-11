@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceApproveViewController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceApproveViewController">
+   <children>
+      <TableView fx:id="pendingApprovalTV" layoutX="87.0" layoutY="109.0" prefHeight="200.0" prefWidth="436.0">
+        <columns>
+          <TableColumn fx:id="apprTitleCol" prefWidth="159.20001220703125" text="Movie Title" />
+          <TableColumn fx:id="apprRatingCol" prefWidth="151.20001220703125" text="Assigned Rating" />
+            <TableColumn fx:id="apprFlagsCol" prefWidth="125.60009765625" text="Compliance Flags" />
+        </columns>
+      </TableView>
+      <Button layoutX="274.0" layoutY="334.0" mnemonicParsing="false" onAction="#approveForRelease" text="Approve" />
+      <Text layoutX="230.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approve Release">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+   </children>
 </AnchorPane>

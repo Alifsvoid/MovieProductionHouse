@@ -10,9 +10,10 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/spring26/section2/group13/movieproductionhouse/akkhorik/user7Dashboard.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        // The file name goes INSIDE the quotes right here!
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("alif/compliance-dash-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+        stage.setTitle("Complaint Screen Test");
         stage.setScene(scene);
         stage.show();
     }

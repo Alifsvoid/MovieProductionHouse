@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceGuidelinesViewController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.alif.ComplianceGuidelinesViewController">
+   <children>
+      <TextArea fx:id="guidelinesTA" layoutX="183.0" layoutY="75.0" prefHeight="200.0" prefWidth="200.0" promptText="Guidelines" />
+      <Button layoutX="238.0" layoutY="303.0" mnemonicParsing="false" onAction="#saveChanges" text="Save Changes" />
+      <Text layoutX="165.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compliance Guidelines">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+   </children>
 </AnchorPane>

@@ -4,8 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf2e930-ff9a-4909-907a-cfbf884dc050" name="Changes" comment="add user 7 &amp; 8 Dashboard fxml and controller">
+    <list default="true" id="fbf2e930-ff9a-4909-907a-cfbf884dc050" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Officer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/DummyDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/DummyDataGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/LoggedInSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/LoggedInSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/LoginViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Audience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceComplaintViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceComplaintViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceDashViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceDashViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceHistoryViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceHistoryViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudiencePlayerViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudiencePlayerViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudiencePremiumViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudiencePremiumViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceReviewViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceReviewViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceSignupViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceSignupViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceWalletViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/AudienceWalletViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Complaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Complaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceApproveViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceApproveViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceComplaintsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceComplaintsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceDashViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceDashViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceFlagViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceFlagViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceGuidelinesViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceGuidelinesViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceOfficer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceOfficer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceRatingViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceRatingViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceReportsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceReportsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceSuspendViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/ComplianceSuspendViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring26/section2/group13/movieproductionhouse/alif/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-complaint-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-complaint-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-dash-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-dash-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-history-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-history-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-signup-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/audience-signup-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-approve-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-approve-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-complaints-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-complaints-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-dash-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-dash-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-reports-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-reports-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-suspend-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/spring26/section2/group13/movieproductionhouse/alif/compliance-suspend-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +69,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Alifsvoid/MovieProductionHouse.git&quot;,
-    &quot;accountId&quot;: &quot;24d1ffb7-4095-4bed-a186-b82dd9b6a011&quot;
+    &quot;accountId&quot;: &quot;41400ef3-43d5-4780-8264-028d2c6d2397&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -46,6 +83,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="3B2WnmoHEmXYL5HR7NC7dPXmWtP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,16 +91,50 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DummyDataGenerator.executor&quot;: &quot;Run&quot;,
     &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alifa/Downloads/MedicalEntranceExam-master (2)&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alifa/IdeaProjects/MovieProductionHouse&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="DummyDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring26.section2.group13.movieproductionhouse.DummyDataGenerator" />
+      <module name="MovieProductionHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring26.section2.group13.movieproductionhouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring26.section2.group13.movieproductionhouse.HelloApplication" />
+      <module name="MovieProductionHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring26.section2.group13.movieproductionhouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.DummyDataGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,26 +178,28 @@
     </task>
     <task id="LOCAL-00005" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1774929827626</created>
+      <created>1774977284001</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1774929827626</updated>
+      <updated>1774977284001</updated>
     </task>
-    <task id="LOCAL-00006" summary="add user 7 &amp; 8 Dashboard fxml and controller">
-      <option name="closed" value="true" />
-      <created>1774937853421</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1774937853421</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="add user 7 &amp; 8 Dashboard fxml and controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user 7 &amp; 8 Dashboard fxml and controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
