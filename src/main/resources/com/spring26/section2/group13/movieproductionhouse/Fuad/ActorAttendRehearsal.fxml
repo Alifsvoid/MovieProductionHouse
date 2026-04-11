@@ -8,31 +8,26 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spring26.section2.group13.movieproductionhouse.Fuad.ActorAttendRehearsalController">
    <children>
-      <AnchorPane layoutX="5.0" prefHeight="486.0" prefWidth="594.0">
+      <Label layoutX="72.0" layoutY="32.0" prefHeight="50.0" prefWidth="446.0" text="Rehearsal Attendance &amp; Schedule">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="rehearsalTable" layoutX="19.0" layoutY="138.0" prefHeight="200.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="dateCol" prefWidth="161.5999755859375" text="Rehearsal Date" />
+          <TableColumn fx:id="timeCol" prefWidth="115.199951171875" text="Time Slot" />
+            <TableColumn fx:id="studioCol" prefWidth="136.800048828125" text="Studio/Room" />
+            <TableColumn fx:id="statusCol" prefWidth="141.5999755859375" text="Status" />
+        </columns>
+      </TableView>
+      <HBox layoutX="33.0" layoutY="352.0" prefHeight="100.0" prefWidth="340.0">
          <children>
-            <Label layoutX="67.0" layoutY="32.0" prefHeight="50.0" prefWidth="446.0" text="Rehearsal Attendance &amp; Schedule">
-               <font>
-                  <Font name="System Bold" size="24.0" />
-               </font>
-            </Label>
-            <TableView fx:id="rehearsalTable" layoutX="14.0" layoutY="138.0" prefHeight="200.0" prefWidth="570.0">
-              <columns>
-                <TableColumn fx:id="dateCol" prefWidth="161.5999755859375" text="Rehearsal Date" />
-                <TableColumn fx:id="timeCol" prefWidth="115.199951171875" text="Time Slot" />
-                  <TableColumn fx:id="studioCol" prefWidth="136.800048828125" text="Studio/Room" />
-                  <TableColumn fx:id="statusCol" prefWidth="141.5999755859375" text="Status" />
-              </columns>
-            </TableView>
-            <HBox layoutX="28.0" layoutY="352.0" prefHeight="100.0" prefWidth="340.0">
-               <children>
-                  <Button mnemonicParsing="false" onAction="#handleConfirmAttendance" text="Confirm Attendance" />
-                  <Button mnemonicParsing="false" onAction="#handleRequestAbsence" text="Request Absence" />
-               </children>
-            </HBox>
+            <Button mnemonicParsing="false" onAction="#handleConfirmAttendance" text="Confirm Attendance" />
+            <Button mnemonicParsing="false" onAction="#handleRequestAbsence" text="Request Absence" />
          </children>
-      </AnchorPane>
+      </HBox>
    </children>
 </AnchorPane>
